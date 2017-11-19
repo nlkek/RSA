@@ -31,10 +31,7 @@ def euler_func(p, q):
 
 
 def is_coprime(a, b):
-    if euclid(a, b) == 1:
-        return True
-    else:
-        return False
+    return euclid(a, b) == 1
 
 
 def euclid(a, b):
